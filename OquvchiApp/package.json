@@ -1,0 +1,27 @@
+{
+  "name": "oquvchiapp",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "build:apk": "eas build -p android --profile preview"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "expo": "~52.0.0",
+    "expo-av": "~15.0.1",
+    "expo-blur": "~14.0.1",
+    "expo-linear-gradient": "~14.0.1",
+    "expo-status-bar": "~2.0.0",
+    "lucide-react-native": "^0.460.0",
+    "react": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-svg": "15.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "eas-cli": "^25.1.1"
+  },
+  "private": true
+}
